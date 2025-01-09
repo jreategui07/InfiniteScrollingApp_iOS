@@ -1,0 +1,101 @@
+# Xcode
+DerivedData/
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.xcsettings
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/**/*
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcshareddata/**/*
+.idea/
+*.ideworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Symbolication
+*.dSYM.zip
+*.bcsymbolmap
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Core Data
+*.xccurrentversion
+
+# Temporary files
+*.moved-aside
+*.xcuserstate
+
+# Logs
+*.log
+*.gz
+*.xcactivitylog
+
+# Build artifacts
+*.o
+*.a
+*.lo
+*.la
+*.al
+*.so
+*.ko
+*.mod
+*.cmd
+*.z
+*.ko.*
+*.bin
+
+# Device data
+ios/DeviceSupport/
+watchOS/DeviceSupport/
+
+# Test results
+*.plist
+*.junit
+*.xcresult
+*.diag
+
+# User-specific files
+*.swp
+*.swo
+*~
+.DS_Store
+.profile
+*.idea/
+*.vscode/
+
+# Images and metadata
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
